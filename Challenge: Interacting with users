@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int fizzbuzz(int number);
+
+int main(int argc, const char * argv[]) {
+    // insert code here...
+    printf("Hello, World!\n");
+    char string_chosen[] = "";
+    
+    printf("Type a random string!\n");
+    printf("\n");
+    scanf("%s", &string_chosen); // 5
+    printf("The string you typed is %s\n", string_chosen);
+    printf("The string you typed has %d characters", strlen(string_chosen));
+    
+}
